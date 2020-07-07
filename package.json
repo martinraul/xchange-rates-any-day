@@ -1,0 +1,26 @@
+{
+  "name": "xchange-rates-any-day",
+  "version": "1.0.0",
+  "description": "Exchange rates for r/argentinaPrograma",
+  "main": "index.html",
+  "dependencies": {
+    "cypress": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "empezar":"http-server-c-1",
+    "cypress-open": "cypress open",
+    "cypress-run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinraul/Xchange-Rates-any-day.git"
+  },
+  "author": "martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinraul/Xchange-Rates-any-day/issues"
+  },
+  "homepage": "https://github.com/martinraul/Xchange-Rates-any-day#readme"
+}

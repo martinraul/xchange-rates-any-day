@@ -23,7 +23,7 @@ button.onclick = function () {
 
       Object.keys(respuestaJSON.rates).forEach(($currency) => {
         let li = document.createElement("li");
-        li.className = "list-group-item";
+        li.className = "list-group-item list-group-item-info";
         li.innerHTML = `<li>${$currency}: ${respuestaJSON.rates[$currency]}</li>`;
         ul.appendChild(li);
       });
@@ -33,4 +33,5 @@ button.onclick = function () {
 
 resetButton.onclick = function () {
   document.getElementById("list").textContent = "";
+  h2.textContent="Enter the date and base currency";
 };

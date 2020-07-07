@@ -9,13 +9,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
 </head>
 
-<body class="bg-light">
-  <div class="container-sm justify-content-md-center border">
+<body class="bg-info text-white">
+  <div class="container-sm justify-content-md-center border mt-2"  data-cy="container">
     <div class="row d-flex justify-content-center">
-      <h1 id="h1">FIND ANY CURRENCY VALUE ANY DAY</h1>
-      <h3 id="h2">Enter the date and Base currency</h3>
+      <h1 id="h1">FIND ANY CURRENCY VALUE FOR ANY DATE</h1>
+      <h1 id="h2">Enter the date and base currency</h1>
     </div>
     <div class="col-sm d-flex justify-content-center">
       <form id="form">
@@ -58,7 +59,7 @@
       </form>
     </div>
     <div class="col-sm d-flex justify-content-center mt-2">
-      <button id="submit-button" class="bg-dark text-white">SUBMIT</button>
+      <button id="submit-button" class="bg-dark text-white mr-1">SUBMIT</button>
       <button type="reset" id="reset-button" form="form" class="bg-dark text-white">RESET</button>
     </div>
     <ul id="list" class="row-md- list-group mt-2"></ul>
