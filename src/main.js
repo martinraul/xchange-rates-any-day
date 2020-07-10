@@ -1,6 +1,6 @@
 //TO DO next weeks..add amount calculator, show selected currency only
 
-import { getCurrencyList } from "./exchangeList.js";
+import { getCurrencyList } from "./exchange.js";
 import { updateDate } from "./date.js";
 
 let submitButton = document.querySelector("#submit-button");
