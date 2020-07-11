@@ -1,18 +1,13 @@
 //TO DO next weeks..add amount calculator, show selected currency only
 
-import { getCurrencyList } from "./exchange.js";
-import { updateDate } from "./date.js";
+import { updateDate } from "./ui.js";
+import { getButtonsReady } from "./ui.js";
 
-let submitButton = document.querySelector("#submit-button");
-let resetButton = document.querySelector("#reset-button");
 
-submitButton.onclick = function () {
-  getCurrencyList(); 
-};
-
-resetButton.onclick = function () {
-  document.getElementById("list").textContent = "";
-  h2.textContent = "Enter the date and base currency";
-};
-
+function initializePage(){
+getButtonsReady()
 updateDate();
+}
+
+initializePage()
+

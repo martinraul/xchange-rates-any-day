@@ -1,4 +1,4 @@
-const URL = "http://192.168.0.108:8080/";
+const URL = "http://192.168.0.102:8080/";
 const container = "[data-cy=container]";
 
 context("Xchange Rates any Day", () => {
@@ -10,8 +10,10 @@ context("Xchange Rates any Day", () => {
     it(" makes sure there are two headers", () => {
       cy.get(container).find("h1").should("have.length", 2);
     });
-    it("makes sure there are a DATE input", () => {
+    it("makes sure there are a DATE input and date is TODAY date", () => {
+      const todaysDate = Cypress.moment().format("YYYY-MM-DD");
       cy.get(container).find("#date");
+      cy.get("#date").should("have.value", todaysDate);
     });
     it("makes sure there are a select input", () => {
       cy.get(container)
@@ -28,7 +30,7 @@ context("Xchange Rates any Day", () => {
     });
   });
   describe("Makes sure FORM  works ok", () => {
-    it("select DATA and CURRENCY", () => {
+    it("select a random DATA and CURRENCY", () => {
       cy.get("#date").type("2020-05-20");
       cy.get("#select-menu").type("USD");
     });
