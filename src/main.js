@@ -10,4 +10,3 @@ updateDate();
 }
 
 initializePage()
-
