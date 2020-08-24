@@ -1,5 +1,5 @@
 /*
-import { showCurrency } from "./exchange";
+import { showCurrency } from "./service";
 
 export function loadCurrencyFromStorage($currency) {
   const $newcurrency = JSON.parse(localStorage.getItem($currency));

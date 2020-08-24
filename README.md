@@ -13,9 +13,9 @@ Exchange Rates for r/argentinaPrograma. RESTFul API practice.
 https://martinraul.github.io/Xchange-Rates-any-day/
 
 ## Task list
-- [x] Add Network Request test to Cypress
-- [] Add search bar
-- [] Show selected currency only
+-[x] Add Network Request test to Cypress
+-[] Add search bar
+-[] Show selected currency only
 
 ## Acknowledgments
 * Hat tip to everyone at [r/argentinaPrograma](https://argentinaprograma.com/)

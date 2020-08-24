@@ -1,4 +1,4 @@
-import { loadCurrencyFromApi } from "./exchange.js";
+import { loadCurrencyFromApi } from "./service.js";
 const ul = document.querySelector("#list");
 
 
@@ -15,7 +15,6 @@ export function getButtonsReady() {
     h2.textContent = "Enter the date and base currency";
   };
 }
-
 
 export function getSelectedCurrencyValue() {
   const $currency = document.getElementById("select-menu").value;
