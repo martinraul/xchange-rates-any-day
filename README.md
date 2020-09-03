@@ -10,7 +10,7 @@ Exchange Rates for r/argentinaPrograma. RESTFul API practice.
 * [Eslint](https://eslint.org/) - For code review
 
 ## Working link⬇⬇
-https://martinraul.github.io/Xchange-Rates-any-day/
+https://martinraul.github.io/xchange-rates-any-day/
 
 ## Task list
 -[x] Add Network Request test to Cypress
